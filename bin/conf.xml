@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ZenoIntel>
+  <!--各字段依次是工号, 姓名, 邮箱, 账内工资, 账外工资, 社保扣款, 住房公积金扣款-->
+  <Employees>
+    <Employee id="5" name="郭  桥" email="qguo@zenointel.com" internalSalary="8000" externalSalary="0" socialInsuranceCut="147" houseFundCut="0"/>
+  </Employees>
+  <!--每次迟到扣款-->
+  <LateCutUnit>10</LateCutUnit>
+  <!--个税起征点-->
+  <IndividualIncomeTaxStart>2000</IndividualIncomeTaxStart>
+   <!--邮件账号-->
+  <Email server="smtp.gmail.com" username="guoqiao@gmail.com" password="51649254"/>
+</ZenoIntel>
